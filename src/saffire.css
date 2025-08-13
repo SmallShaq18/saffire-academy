@@ -1,0 +1,500 @@
+/*@font-face {font-family: opensans; src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);}
+@font-face {font-family: opensans-italic; src: url(fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf);}*/
+
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Open Sans', sans-serif; overflow-x: hidden; padding-top: 55px;
+}
+
+/*TOP*/
+
+.top .hoverables{
+    position: relative;
+}
+.top .hoverables:hover .hidden-navs {
+  display: block;
+}
+.top{
+    top: 0; position: fixed; background-color: maroon; width: 100%; height: 13%; z-index: 12;
+}
+.top .enroll h6 a{
+    color: rgb(238, 171, 46); font-weight: bold; border: 1px solid rgb(238, 171, 46); height: 50%;
+}
+.top .enroll h6 a:hover{
+    color: #ffffff; font-weight: bold; border: 2px solid rgb(252, 191, 78); height: 50%;
+}
+.top .li-items a{
+    color: #ffffff; font-size: 17px; font-weight: bold; text-decoration: none;
+}
+.top .li-items a:hover{
+    color: rgb(238, 171, 46);
+}
+.top .li-items .fa{
+    color: #ffffff; font-size: 20px; font-weight: bold;
+}
+.top .li-items .fa:hover{
+    color: rgb(238, 171, 46); font-size: 25px; font-weight: bold;
+}
+.top .li-items .carr{
+    color: #ffffff; font-size: 11px; margin-left: 3px;
+}
+.top .hidden-navs{
+    position: absolute; top: 70%; display: none; border-top: 2px solid rgb(238, 171, 46);
+    box-shadow: 1px 1px 1px 1px #d1cece; /*z-index: 250 !important;*/
+}
+.top .hidden-navs li a{
+    font-weight: 600; color: black; 
+}
+.top .sub-hover:hover{
+    background-color: rgb(238, 171, 46) !important;
+}
+.top .sub-hover .sub-a:hover{
+    color: #ffffff !important;
+}
+.top .search-page{
+    position: fixed; top: 0; left: 0; background-color: rgba(128, 0, 0, 0.895); width: 100vw; height: 100vh; visibility: hidden;
+    transition: opacity 0.5s ease; /*z-index: 251 !important;*/ overflow-x: hidden;
+}
+.top input{
+    border: none; border-bottom: 1px solid white; width: 700px; padding: 2%; background-color: #ffffff; color: black;
+    border-radius: 0%; outline: 0; height: 100px; font-size: 50px;
+}
+.top .search .fa-search{
+    font-size: 50px; text-align: left; line-height: 100px; transition: transform 0.2s ease; margin-left: 5px;
+}
+.top ::placeholder{
+    color: rgb(160, 158, 158); opacity: 1; font-size: 50px; font-weight: 600; text-align: left; padding-bottom: 5%;
+    font-style: italic;
+}
+.top .search-closebtn{
+    position: absolute; top: 0; right: 1%; cursor: pointer;
+}
+.top #navbar{
+    display: flex;
+}
+
+/*SLIDER*/
+
+
+
+/*INTRO*/
+
+/*.intro{
+     position: relative;
+}*/
+.intro div h1{
+    color: maroon;
+}
+.intro div p{
+    font-size: 20px; font-weight: 500;
+}
+.intro .hoverable:hover{
+    color: white !important;
+}
+
+/*ACADEMICS*/
+
+.elementary{
+    background-image: url(images/10.jpg); height: 60vh; background-position: right; background-size: cover;
+}
+.middle{
+    background-image: url(images/18.jpg); height: 60vh; background-position: right; background-size: cover;
+}
+.high{
+    background-image: url(images/8.jpg); height: 60vh; background-position: right; background-size: cover;
+}
+span{
+    background: transparent; width: 100%; height: 100%; position: absolute; top: 0; left: 0; transition: 1s;
+}
+span h5{
+    font-size: 25px; color: rgb(238, 171, 46); transform: translateX(-50%); bottom: 50%; left: 50%;
+    position: absolute; opacity: 1; transition: 1s; width: 50%;
+}
+span p{
+    font-size: 15px; bottom: 0; left: 50%; color: #fff; transform: translateX(-50%); padding: 10px;
+    position: absolute; opacity: 0; transition: 1s; width: 50%; border: 1px solid rgb(238, 171, 46);
+}
+span:hover{
+    background: rgba(128, 0, 0, 0.895);
+}
+span:hover p{
+    bottom: 20%; opacity: 1;
+}
+span:hover h5{
+    bottom: 70%; opacity: 1;
+}
+
+/*SOCIAL*/
+
+.social{
+    color: maroon;
+}
+.social ul a{
+    font-size: 45px; color: maroon;
+}
+.social ul a:hover{
+    color: rgb(238, 171, 46);
+}
+
+/*GALLERY*/
+
+.transform-image{
+    transform: scale(0.9); transition: transform 0.3s;
+}
+.transform-image.in-viewport{
+    transform: scale(1.1);
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: maroon;
+}
+.footer h4{
+    text-decoration: underline; color: rgb(238, 171, 46); font-weight: bold;
+}
+.footer-info{
+    color: #ffffff; font-size: 17px;
+}
+.footer-info .fa{
+    font-size: 30px;
+}
+
+
+/*ABOUT PAGE BEGINS HERE*/
+
+/*ABOUT HEADER*/
+
+.about-header .bg-image{
+    background-image: url(images/19.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+.about-header .dark-overlay, .leadership-header .dark-overlay, .policy-header .dark-overlay, .board-header .dark-overlay, 
+.academics-header .dark-overlay, .athletics-header .dark-overlay, .elementary-header .dark-overlay, 
+.middle-high-header .dark-overlay, .enrollment-header .dark-overlay{
+    background: rgba(8, 8, 8, 0.7); width: 100%; height: 100%; 
+}
+.about-header h1, .leadership-header h1, .policy-header h1{
+    font-size: 30px;
+}
+.about-header p, .leadership-header p, .policy-header p{
+    font-size: 20px;
+}
+
+/*ABOUT BODY*/
+
+.about-body h1{
+    color: maroon; font-weight: bold; font-size: 30px;
+}
+
+/*LEADERSHIP BEGINS HERE*/
+
+.leadership-header .bg-image{
+    background-image: url(images/25.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+
+/*POLICY BEGINS HERE*/
+
+.policy-header .bg-image{
+    background-image: url(images/5.png); height: 70vh; background-position: center; background-size: cover;
+}
+.policy-body .full-policy, .board-body .full-policy{
+    color: black; font-weight: bold; font-size: 15px; text-decoration: underline;
+}
+.policy-body .full-policy, .board-body .full-policy:hover{
+    color: maroon; font-weight: bold; font-size: 15px; text-decoration: underline;
+}
+
+/*BOARD BEGINS HERE*/
+
+.board-header .bg-image{
+    background-image: url(images/6.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+.board-body .fa{
+    font-weight: 500; font-size: 25px;
+}
+
+/*ACADEMICS BEGINS HERE*/
+
+.academics-header .bg-image{
+    background-image: url(images/18.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+.elementary-header .bg-image{
+    background-image: url(images/10.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+.middle-high-header .bg-image{
+    background-image: url(images/9.png); height: 70vh; background-position: center; background-size: cover;
+}
+
+/*ATHLETICS BEGINS HERE*/
+
+.athletics-header .bg-image{
+    background-image: url(images/27.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+.rect-container{
+    width: 80%; margin: auto;
+}
+.rect-container div{
+    width: 100%;
+}
+.rect .fa{
+    font-size: 20px; color: #ffffff;
+}
+.rect-summary{
+    background-color: maroon; color: white;
+}
+.rect-summary:hover{
+    background-color: rgb(238, 171, 46);
+}
+.rect-deets{
+    display: block; background: rgb(241, 241, 241); font-size: 13px;
+}
+
+
+.nav-link {
+    color: #ffffff; /* Default gray for inactive tabs */
+    border-color: transparent;
+}
+
+.nav-link:hover {
+    color: maroon;
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.nav-link.active {
+    color: maroon !important;
+    /*background-color: #fff;*/
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Optional: Style the tab content area */
+.tab-content {
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0 0 0.375rem 0.375rem;
+}
+
+.schedule-content{
+    z-index: 1;
+}
+
+/*ENROLLMENT BEGINS HERE*/
+
+.enrollment-header .bg-image{
+    background-image: url(images/23.jpg); height: 70vh; background-position: center; background-size: cover;
+}
+
+/*REGISTRATION AND LOGIN HERE*/
+
+
+.reg form{
+    margin: auto;
+}
+.reg .input{
+    border-bottom: 1px solid grey; margin-bottom: 10%;
+}
+.reg input{
+    border: none; outline: 0;
+}
+.reg .input .fa{
+    font-size: 30px; color: grey;
+}
+.reg button{
+    width: 100%; background: maroon; border-radius: 10px; outline: 0; box-shadow: none; border: none; color: #ffffff;
+}
+.reg button:hover{
+    background: rgb(238, 171, 46); color: maroon;
+}
+
+
+/*CONTACT*/
+
+.contact .bg2{
+    background-image: url(images/it_service/dark_bg_img2.png); height: 100%; background-position: right; background-size: cover;
+}
+.contact .bg2 span{
+    background: transparent; width: 100%; height: 100%; transition: 1s; display: block;
+}
+.contact .bg2 span:hover{
+    background: rgba(243, 103, 126, 0.7); opacity: 1;
+}
+.contact .fa{
+    color: maroon; background: white; border: 1px solid rgb(238, 171, 46);
+}
+.contact .formm{
+    border-radius: 0; border: 0.5px solid rgb(29, 29, 29); height: 40px;
+}
+.contact .fa:hover{
+    color: rgb(238, 171, 46); background-color: maroon;
+}
+.contact .removeborder{
+    border: none;
+}
+.contact button{
+    width: 30%;
+}
+
+
+@media screen and (max-width: 991.98px) {/*720px*/
+
+
+.navbar-toggler {
+  border: none; margin-left: 15px;
+}
+
+.toggler-icon {
+  width: 25px !important;
+  height: 3px !important;
+  background-color: white !important;
+  margin: 5px 0;
+  transition: 0.4s;
+  display: block;
+}
+.container-custom {
+    flex-wrap :unset !important;
+}
+.top .collapse{
+    position: absolute; top: 100%; left: 0; width: 100%;
+}
+.first-ul{
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)); text-align: center; 
+}
+.first-ul li{
+    padding-bottom: 3%;
+}
+
+.navbar-toggler.open .toggler-icon:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navbar-toggler.open .toggler-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler.open .toggler-icon:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+.navv{
+    align-items: center;
+}
+.navbar-custom {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Bootstrap's default navbar z-index */
+  }
+
+   body {
+    padding-top: 56px; /* Offset for fixed navbar height */
+  }
+
+
+    .intro, .academics, .social, .gallery{
+        padding: 2% !important;
+    }
+    .intro div{
+        padding: 3% !important;
+    }
+    .intro div a{
+        width: 100% !important;
+    }
+    .intro .hoverable{
+        padding: 7px !important;
+    }
+
+    .academics span{
+        background: rgba(128, 0, 0, 0.595);
+    }
+    .academics span p{
+        bottom: 20%; opacity: 1;
+    }
+    .academics span h5{
+        bottom: 69%; opacity: 1;
+    }
+
+    .academics .responcol{
+        padding-bottom: 8% !important;
+    }
+    .academics span p{
+        width: 75% !important;
+    }
+    .social h2{
+        padding-top: 8% !important;
+    }
+    .social ul{
+        padding-top: 0 !important;
+    }
+    .footer .responrow{
+        padding-left: 3% !important;
+    }
+    .footer .responcol{
+        padding-bottom: 5% !important;
+    }
+    .gallery img{
+        width: 100% !important;
+    }
+
+
+    /*ABOUT PAGE BEGINS HERE*/
+
+    .about-header, .about-body, .leadership-header, .leadership-body, .policy-header, .policy-body, .board-header, 
+    .board-body, .academics-header, .academics-body, .athletics-header, .athletics-body, .elementary-header, .elementary-body,
+    .middle-high-header, .middle-high-body, .enrollment-header, .enrollment-body{
+        padding: 3% !important;
+    }
+    .about-header .dark-overlay, .leadership-header .dark-overlay, .policy-header .dark-overlay, .board-header .dark-overlay, 
+    .academics-header .dark-overlay, .athletics-header .dark-overlay, .elementary-header .dark-overlay, .middle-high-header .dark-overlay,
+    .enrollment-header .dark-overlay{
+        padding: 3% !important;
+    }
+    .about-header .responp{
+        padding: 3% !important;
+    }
+    .about-body .responrow, .policy-body .responrow, .board-body .responrow, .academics-body .responrow, 
+    .athletics-body .responrow, .elementary-body .responrow, .middle-high-body .responrow, .enrollment-body .responrow{
+        padding: 3% 1% !important;
+    }
+    .about-body .responcol{
+        padding-top: 5% !important;
+    }
+    .rect-container{
+        width: 100%;
+    }
+
+    
+
+    /*CONTACT PAGE BEGINS HERE*/
+
+    .contact .rescol{
+        padding: 1% !important;
+    }
+    .contact form .responcol{
+        padding-bottom: 4% !important;
+    }
+    .contact .removeborder{
+    width: 100%;
+}
+.contact .removeborder .fa{
+    padding: 5% 45% !important;
+}
+    
+    
+}
+
+
+/*@media (max-width: 768px) and (min-width: 820px){
+    
+    
+    .respontop{
+        justify-content: space-between !important; width: 50% !important; margin-top: 3% !important;
+    }
+*/
