@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Slider from '../components/Slider';
 import Gallery from '../components/Gallery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faYoutube, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faYoutube, faInstagram, faWhatsapp } from '@fortawesome/free-solid-svg-icons';
 
 export default function HomePage() {
 
