@@ -97,13 +97,13 @@ body{
 /*ACADEMICS*/
 
 .elementary{
-    background-image: url(images/10.jpg); height: 60vh; background-position: right; background-size: cover;
+    background-image: url(/images/10.jpg); height: 60vh; background-position: right; background-size: cover;
 }
 .middle{
-    background-image: url(images/18.jpg); height: 60vh; background-position: right; background-size: cover;
+    background-image: url(/images/18.jpg); height: 60vh; background-position: right; background-size: cover;
 }
 .high{
-    background-image: url(images/8.jpg); height: 60vh; background-position: right; background-size: cover;
+    background-image: url(/images/8.jpg); height: 60vh; background-position: right; background-size: cover;
 }
 span{
     background: transparent; width: 100%; height: 100%; position: absolute; top: 0; left: 0; transition: 1s;
@@ -168,7 +168,7 @@ span:hover h5{
 /*ABOUT HEADER*/
 
 .about-header .bg-image{
-    background-image: url(images/19.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/19.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 .about-header .dark-overlay, .leadership-header .dark-overlay, .policy-header .dark-overlay, .board-header .dark-overlay, 
 .academics-header .dark-overlay, .athletics-header .dark-overlay, .elementary-header .dark-overlay, 
@@ -191,13 +191,13 @@ span:hover h5{
 /*LEADERSHIP BEGINS HERE*/
 
 .leadership-header .bg-image{
-    background-image: url(images/25.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/25.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 
 /*POLICY BEGINS HERE*/
 
 .policy-header .bg-image{
-    background-image: url(images/5.png); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/5.png); height: 70vh; background-position: center; background-size: cover;
 }
 .policy-body .full-policy, .board-body .full-policy{
     color: black; font-weight: bold; font-size: 15px; text-decoration: underline;
@@ -209,7 +209,7 @@ span:hover h5{
 /*BOARD BEGINS HERE*/
 
 .board-header .bg-image{
-    background-image: url(images/6.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/6.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 .board-body .fa{
     font-weight: 500; font-size: 25px;
@@ -218,19 +218,19 @@ span:hover h5{
 /*ACADEMICS BEGINS HERE*/
 
 .academics-header .bg-image{
-    background-image: url(images/18.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/18.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 .elementary-header .bg-image{
-    background-image: url(images/10.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/10.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 .middle-high-header .bg-image{
-    background-image: url(images/9.png); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/9.png); height: 70vh; background-position: center; background-size: cover;
 }
 
 /*ATHLETICS BEGINS HERE*/
 
 .athletics-header .bg-image{
-    background-image: url(images/27.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/27.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 .rect-container{
     width: 80%; margin: auto;
@@ -289,7 +289,7 @@ span:hover h5{
 /*ENROLLMENT BEGINS HERE*/
 
 .enrollment-header .bg-image{
-    background-image: url(images/23.jpg); height: 70vh; background-position: center; background-size: cover;
+    background-image: url(/images/23.jpg); height: 70vh; background-position: center; background-size: cover;
 }
 
 /*REGISTRATION AND LOGIN HERE*/
@@ -318,7 +318,7 @@ span:hover h5{
 /*CONTACT*/
 
 .contact .bg2{
-    background-image: url(images/it_service/dark_bg_img2.png); height: 100%; background-position: right; background-size: cover;
+    background-image: url(/images/it_service/dark_bg_img2.png); height: 100%; background-position: right; background-size: cover;
 }
 .contact .bg2 span{
     background: transparent; width: 100%; height: 100%; transition: 1s; display: block;
