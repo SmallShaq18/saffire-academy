@@ -1,7 +1,8 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
-import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+//import 'react-image-lightbox/style.css';
 import { Link } from 'react-router-dom';
 import Slider from '../components/Slider';
 import Gallery from '../components/Gallery';
@@ -56,13 +57,13 @@ export default function HomePage() {
 }, []);
 
 
-  const imgSrcs = [
+  /*const imgSrcs = [
     'images/20.png',
     'images/2.jpg',
     'images/9.png',
     'images/22.jpg',
     'images/23.jpg',
-  ];
+  ];*/
 
   useEffect(() => {
     window.scrollTo(0, 0);
