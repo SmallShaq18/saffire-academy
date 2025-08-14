@@ -11,28 +11,6 @@ import { faFacebook, faTwitter, faYoutube, faInstagram, faWhatsapp } from '@fort
 
 export default function HomePage() {
 
-    
-    
-    const imageRefs = useRef([]);
-
-  /*useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const el = entry.target;
-          if (entry.isIntersecting) {
-            el.classList.add('in-viewport');
-          } else {
-            el.classList.remove('in-viewport');
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    imageRefs.current.forEach((ref) => ref && observer.observe(ref));
-    return () => observer.disconnect();
-  }, []);*/
 
   useEffect(() => {
   const observer = new IntersectionObserver(
@@ -55,15 +33,6 @@ export default function HomePage() {
 
   return () => observer.disconnect();
 }, []);
-
-
-  /*const imgSrcs = [
-    'images/20.png',
-    'images/2.jpg',
-    'images/9.png',
-    'images/22.jpg',
-    'images/23.jpg',
-  ];*/
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -145,26 +114,6 @@ export default function HomePage() {
 
 
         <Gallery />
-        {/*<section className="container-fluid gallery p-5">
-            <h2 className="text-center fw-bold social mb-5">LIFE AT SAFFIRE ACADEMY</h2>
-            <div className="row p-3">
-                <div className="col-lg-6">
-                     <img src={imgSrcs[0]} ref={(el) => (imageRefs.current[0] = el)} alt="library"
-                         width="90%" height="90%" className="transform-image" />
-                </div>
-
-                <div className="col-lg-6">
-                     <div className="row">
-                        {imgSrcs.slice(1).map((src, i) => (
-                         <div className="col-md-6 p-3" key={i}>
-                            <img src={src} ref={(el) => (imageRefs.current[i + 1] = el)} alt=""
-                              width="90%"  height="90%" className="transform-image" />
-                         </div>
-                        ))}
-                     </div>
-                    </div>
-                </div> 
-        </section>*/}
 
         <section className="container-fluid social">
             <h6 className="text-center fw-bold social">Follow Us On:</h6>

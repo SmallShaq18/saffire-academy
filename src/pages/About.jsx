@@ -37,7 +37,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col-md-6 order-1 order-md-2">
-                    <img src="images/1.jpg" width="100%" height="auto" />
+                    <img src="images/1.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
             </div>
             <div className='row'>
@@ -61,6 +61,7 @@ export default function About() {
       width="100%"
       height="100%"
       alt="Students representing Saffire Academy at a partnered event"
+      loading='lazy'
     />
   </div>
   <div className="col-md-6 responcol">
@@ -109,6 +110,7 @@ export default function About() {
       width="100%"
       height="100%"
       alt="Students collaborating and learning together at Saffire Academy"
+      loading='lazy'
     />
   </div>
 </div>

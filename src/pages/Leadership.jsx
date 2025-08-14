@@ -37,6 +37,7 @@ export default function Leadership() {
         width="150"
         height="150"
         style={{ objectFit: "cover" }}
+        loading="lazy"
       />
       <h3 className="fw-bold">Heidie Harriss</h3>
       <h5 className="fst-italic text-secondary">Special Advisor</h5>
@@ -54,6 +55,7 @@ export default function Leadership() {
         width="150"
         height="150"
         style={{ objectFit: "cover" }}
+        loading="lazy"
       />
       <h3 className="fw-bold">Dr. Kath Griordang</h3>
       <h5 className="fst-italic text-secondary">Elementary School Principal</h5>
@@ -71,6 +73,7 @@ export default function Leadership() {
         width="150"
         height="150"
         style={{ objectFit: "cover" }}
+        loading="lazy"
       />
       <h3 className="fw-bold">Mrs. Melissa D'Armadilo</h3>
       <h5 className="fst-italic text-secondary">Elementary School Assistant Principal</h5>
@@ -88,6 +91,7 @@ export default function Leadership() {
         width="150"
         height="150"
         style={{ objectFit: "cover" }}
+        loading="lazy"
       />
       <h3 className="fw-bold">Mr. Pete Shanghail</h3>
       <h5 className="fst-italic text-secondary">Middle/High School Principal</h5>
@@ -105,6 +109,7 @@ export default function Leadership() {
         width="150"
         height="150"
         style={{ objectFit: "cover" }}
+        loading="lazy"
       />
       <h3 className="fw-bold">Mrs. Betty Aguair</h3>
       <h5 className="fst-italic text-secondary">Middle/High School Assistant Principal</h5>
@@ -115,9 +120,7 @@ export default function Leadership() {
 
   </div>
 </div>
-
-
-            
+ 
         </section>
     </main>
   );

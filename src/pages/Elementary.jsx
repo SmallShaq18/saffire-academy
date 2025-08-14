@@ -32,7 +32,7 @@ export default function Elementary() {
 
             <div className="row p-5 responrow">
                 <div className="col-md-6">
-                    <img src="images/14.jpg" width="100%" height="auto" />
+                    <img src="images/14.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
                 <div className="col-md-6 px-5">
                     <div style={{ border: "4px solid maroon", width: "20%" }}></div>
@@ -65,7 +65,7 @@ export default function Elementary() {
                     </div>
                 </div>
                 <div className="col-md-6 order-1 order-md-2">
-                    <img src="images/36.jpg" width="100%" height="auto" />
+                    <img src="images/36.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
             </div>
 
@@ -75,7 +75,7 @@ export default function Elementary() {
       <section className="container-fluid elementary-body p-5">
         <div className="row p-5 responrow">
                 <div className="col-md-6">
-                    <img src="images/17.jpg" width="100%" height="auto" />
+                    <img src="images/17.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
                 <div className="col-md-6 py-5">
                     <div style={{ border: "4px solid maroon", width: "20%" }}></div>

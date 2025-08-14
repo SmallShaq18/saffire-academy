@@ -93,7 +93,7 @@ export default function Board() {
 
             <div className="row p-5 responrow">
                 <div className="col-md-6">
-                    <img src="images/32.jpg" width="100%" height="auto" />
+                    <img src="images/32.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
                 <div className="col-md-6 px-5">
                     <div style={{ border: "4px solid maroon", width: "20%" }}></div>

@@ -38,7 +38,7 @@ export default function Enrollment() {
 
             <div className="row p-3 responrow">
                 <div className="col-md-6">
-                    <img src="images/14.jpg" width="100%" height="auto" />
+                    <img src="images/14.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
                 <div className="col-md-6 py-5">
                     <div style={{ border: "4px solid maroon", width: "20%" }}></div>
@@ -62,13 +62,13 @@ export default function Enrollment() {
                     </div>
                 </div>
                 <div className="col-md-6 order-1 order-md-2">
-                    <img src="images/17.jpg" width="100%" height="auto" />
+                    <img src="images/17.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
             </div>
 
             <div className="row p-3 responrow">
                 <div className="col-md-6">
-                    <img src="images/16.jpg" width="100%" height="auto" />
+                    <img src="images/16.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
                 <div className="col-md-6 py-5">
                     <div style={{ border: "4px solid maroon", width: "20%" }}></div>
@@ -89,7 +89,7 @@ export default function Enrollment() {
                     </div>
                 </div>
                 <div className="col-md-6 order-1 order-md-2">
-                    <img src="images/28.jpg" width="100%" height="auto" />
+                    <img src="images/28.jpg" width="100%" height="auto" loading="lazy" />
                 </div>
             </div>
 

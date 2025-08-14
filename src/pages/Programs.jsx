@@ -31,7 +31,7 @@ export default function Programs() {
       <section className="container-fluid academics-body px-5">
         <div className="row px-5 responrow">
           <div className="col-md-6">
-            <img src="images/2.jpg" width="100%" height="auto" alt="Elementary School" />
+            <img src="images/2.jpg" width="100%" height="auto" alt="Elementary School" loading="lazy" />
           </div>
           <div className="col-md-6 py-5">
             <div style={{ border: "4px solid maroon", width: "20%" }}></div>
@@ -75,13 +75,13 @@ export default function Programs() {
               </Card>
           </div>
           <div className="col-md-6 order-1 order-md-2">
-            <img src="images/11.jpg" width="100%" height="auto" alt="Middle School" />
+            <img src="images/11.jpg" width="100%" height="auto" alt="Middle School" loading="lazy" />
           </div>
         </div>
 
         <div className="row px-5 responrow">
           <div className="col-md-6">
-            <img src="images/9.png" width="100%" height="auto" alt="High School" />
+            <img src="images/9.png" width="100%" height="auto" alt="High School" loading="lazy" />
           </div>
           <div className="col-md-6 py-5">
             <div style={{ border: "4px solid maroon", width: "20%" }}></div>

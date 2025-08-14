@@ -28,7 +28,7 @@ export default function Policy() {
 
             <div className="row p-5 responrow">
                 <div className="col-md-6 p-3">
-                    <img src="images/12.jpg" width="100%" height="auto" />
+                    <img src="images/12.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
                 <div className="col-md-6 p-3">
                     <h1 className="pt-2">Code Of Honour</h1>
@@ -56,13 +56,13 @@ export default function Policy() {
                     </div>
                 </div>
                 <div className="col-md-6 p-3 order-1 order-md-2">
-                    <img src="images/13.jpg" width="100%" height="auto" />
+                    <img src="images/13.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
             </div>
 
             <div className="row p-5 responrow">
                 <div className="col-md-6 p-3">
-                    <img src="images/15.jpg" width="100%" height="auto" />
+                    <img src="images/15.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
                 <div className="col-md-6 p-3">
                     <h1 className="pt-2">Code Of Discipline</h1>
@@ -82,13 +82,13 @@ export default function Policy() {
                     </div>
                 </div>
                 <div className="col-md-6 p-3 order-1 order-md-2">
-                    <img src="images/26.jpg" width="100%" height="auto" />
+                    <img src="images/26.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
             </div>
 
             <div className="row p-5 responrow">
                 <div className="col-md-6 p-3">
-                    <img src="images/10.jpg" width="100%" height="auto" />
+                    <img src="images/10.jpg" width="100%" height="auto" loading='lazy' />
                 </div>
                 <div className="col-md-6 p-3">
                     <h1 className="pt-2">Communication Handbook</h1>
@@ -118,14 +118,14 @@ export default function Policy() {
     </div>
   </div>
   <div className="col-md-6 p-3 order-1 order-md-2">
-    <img src="images/23.jpg" width="100%" height="auto" alt="Attendance Policy" />
+    <img src="images/23.jpg" width="100%" height="auto" alt="Attendance Policy" loading='lazy' />
   </div>
 </div>
 
 {/* ACADEMIC INTEGRITY POLICY */}
 <div className="row p-5 responrow">
   <div className="col-md-6 p-3">
-    <img src="images/33.jpg" width="100%" height="auto" alt="Academic Integrity" />
+    <img src="images/33.jpg" width="100%" height="auto" alt="Academic Integrity" loading='lazy' />
   </div>
   <div className="col-md-6 p-3">
     <h1 className="pt-2">Academic Integrity Policy</h1>
@@ -164,7 +164,7 @@ export default function Policy() {
     </div>
   </div>
   <div className="col-md-6 p-3 order-1 order-md-2">
-    <img src="images/28.jpg" width="100%" height="auto" alt="Technology Use" />
+    <img src="images/28.jpg" width="100%" height="auto" alt="Technology Use" loading='lazy' />
   </div>
 </div>
 

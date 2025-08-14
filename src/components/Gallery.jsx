@@ -69,6 +69,7 @@ export default function Gallery() {
                 width="90%" 
                 height="90%" 
                 className="transform-image"
+                loading='lazy'
               />
               
               {/* Hover Overlay */}
@@ -117,6 +118,7 @@ export default function Gallery() {
                       width="90%"  
                       height="90%" 
                       className="transform-image"
+                      loading='lazy'
                     />
                     
                     {/* Hover Overlay */}
@@ -283,7 +285,8 @@ export default function Gallery() {
                 maxHeight: '70vh',
                 objectFit: 'contain',
                 borderRadius: '8px',
-                boxShadow: '0 10px 40px rgba(0,0,0,0.5)'
+                boxShadow: '0 10px 40px rgba(0,0,0,0.5)',
+                loading: 'lazy'
               }}
             />
             
